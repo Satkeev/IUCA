@@ -642,4 +642,3 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         }
     }
 }
-If you want to set a specific size for your camera preview, set this in the surfaceChanged() method as noted in the comments above. When setting preview size, you must use values from getSupportedPreviewSizes(). Do not set arbitrary values in the setPreviewSize() method.
